@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.recipebook.controller.MainController"
+            prefWidth="1120" prefHeight="720">
+
+    <!-- Верхня панель дій -->
+    <top>
+        <VBox spacing="6">
+            <ToolBar>
+                <Button text="Імпорт JSON..." onAction="#onImportJson"/>
+                <Button text="Експорт JSON..." onAction="#onExportJson"/>
+                <Separator orientation="VERTICAL"/>
+                <Button text="База 50 рецептів" onAction="#onLoadStandard"/>
+                <Button text="Фоновий імпорт 15 000 рецептів" onAction="#onLoadLargeAsync"/>
+                <Separator orientation="VERTICAL"/>
+                <Button text="Тест багатопоточності (T1 vs Tn)" onAction="#onRunBenchmark"/>
+            </ToolBar>
+        </VBox>
+    </top>
+
+    <!-- Основна область із трьома вкладками -->
+    <center>
+        <TabPane tabClosingPolicy="UNAVAILABLE">
+
+            <!-- ВКЛАДКА 1: РЕЦЕПТИ -->
+            <Tab text="Довідник рецептів">
+                <VBox spacing="10">
+                    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+                    <!-- Панель пошуку, фільтрації та сортування -->
+                    <HBox spacing="10" alignment="CENTER_LEFT">
+                        <Label text="Пошук:"/>
+                        <TextField fx:id="searchField" promptText="Назва рецепта або інгредієнт..." HBox.hgrow="ALWAYS"/>
+                        <Label text="Категорія:"/>
+                        <ComboBox fx:id="categoryFilter" prefWidth="170"/>
+                        <Label text="Сортування:"/>
+                        <ComboBox fx:id="sortCombo" prefWidth="210"/>
+                        <Button text="Скинути" onAction="#onResetFilters"/>
+                    </HBox>
+
+                    <!-- Таблиця рецептів + панель деталей праворуч -->
+                    <SplitPane dividerPositions="0.72" VBox.vgrow="ALWAYS">
+                        <TableView fx:id="recipeTable">
+                            <columns>
+                                <TableColumn fx:id="colRecipeName" text="Назва рецепта" prefWidth="240"/>
+                                <TableColumn fx:id="colRecipeType" text="Тип" prefWidth="120"/>
+                                <TableColumn fx:id="colRecipeCategory" text="Категорія" prefWidth="115"/>
+                                <TableColumn fx:id="colRecipeTime" text="Час (хв)" prefWidth="80"/>
+                                <TableColumn fx:id="colRecipeServings" text="Порцій" prefWidth="70"/>
+                                <TableColumn fx:id="colRecipeCalories" text="Калорійність" prefWidth="100"/>
+                                <TableColumn fx:id="colRecipeUnit" text="Одиниця" prefWidth="100"/>
+                            </columns>
+                        </TableView>
+
+                        <VBox spacing="8">
+                            <padding><Insets top="8" right="8" bottom="8" left="8"/></padding>
+                            <Label text="Деталі обраного рецепта" style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
+                            <TextArea fx:id="recipeDetailsArea" editable="false" wrapText="true" VBox.vgrow="ALWAYS"/>
+                        </VBox>
+                    </SplitPane>
+
+                    <!-- Кнопки CRUD для рецептів -->
+                    <HBox spacing="10" alignment="CENTER_LEFT">
+                        <Button text="Додати рецепт" onAction="#onAddRecipe"/>
+                        <Button text="Редагувати рецепт" onAction="#onEditRecipe"/>
+                        <Button text="Видалити рецепт" onAction="#onDeleteRecipe"/>
+                        <Region HBox.hgrow="ALWAYS"/>
+                        <Label fx:id="recipeCountLabel" text="Показано рецептів: 0"/>
+                    </HBox>
+                </VBox>
+            </Tab>
+
+            <!-- ВКЛАДКА 2: ІНГРЕДІЄНТИ -->
+            <Tab text="Інгредієнти">
+                <VBox spacing="10">
+                    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+                    <TableView fx:id="ingredientTable" VBox.vgrow="ALWAYS">
+                        <columns>
+                            <TableColumn fx:id="colIngName" text="Назва інгредієнта" prefWidth="320"/>
+                            <TableColumn fx:id="colIngCalories" text="Калорійність (на 100 г/мл)" prefWidth="200"/>
+                            <TableColumn fx:id="colIngUnit" text="Одиниця виміру" prefWidth="150"/>
+                        </columns>
+                    </TableView>
+
+                    <HBox spacing="10">
+                        <Button text="Додати інгредієнт" onAction="#onAddIngredient"/>
+                        <Button text="Редагувати інгредієнт" onAction="#onEditIngredient"/>
+                        <Button text="Видалити інгредієнт" onAction="#onDeleteIngredient"/>
+                    </HBox>
+                </VBox>
+            </Tab>
+
+            <!-- ВКЛАДКА 3: ПЛАНУВАЛЬНИК МЕНЮ ТА СПИСОК ПОКУПОК -->
+            <Tab text="Планувальник меню та список покупок">
+                <SplitPane dividerPositions="0.58">
+                    <!-- Ліва частина: тижневе меню -->
+                    <VBox spacing="10">
+                        <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+                        <Label text="Тижневий план меню" style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
+
+                        <TableView fx:id="menuTable" VBox.vgrow="ALWAYS">
+                            <columns>
+                                <TableColumn fx:id="colMenuDay" text="День тижня" prefWidth="120"/>
+                                <TableColumn fx:id="colMenuMeal" text="Прийом їжі" prefWidth="110"/>
+                                <TableColumn fx:id="colMenuRecipe" text="Рецепт" prefWidth="260"/>
+                                <TableColumn fx:id="colMenuServings" text="Порцій" prefWidth="75"/>
+                            </columns>
+                        </TableView>
+
+                        <HBox spacing="10">
+                            <Button text="Додати в меню" onAction="#onAddMenuEntry"/>
+                            <Button text="Редагувати запис" onAction="#onEditMenuEntry"/>
+                            <Button text="Видалити запис" onAction="#onDeleteMenuEntry"/>
+                        </HBox>
+                    </VBox>
+
+                    <!-- Права частина: список покупок -->
+                    <VBox spacing="10">
+                        <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+                        <Label text="Список покупок на тиждень" style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
+
+                        <TableView fx:id="shoppingTable" VBox.vgrow="ALWAYS">
+                            <columns>
+                                <TableColumn fx:id="colShopName" text="Інгредієнт" prefWidth="200"/>
+                                <TableColumn fx:id="colShopAmount" text="Кількість" prefWidth="100"/>
+                                <TableColumn fx:id="colShopUnit" text="Од. виміру" prefWidth="90"/>
+                            </columns>
+                        </TableView>
+
+                        <HBox spacing="10">
+                            <Button text="Сформувати список (фон)" onAction="#onBuildShoppingList"/>
+                            <Button text="Експорт у XML (JAXB)..." onAction="#onExportShoppingXml"/>
+                        </HBox>
+                    </VBox>
+                </SplitPane>
+            </Tab>
+
+        </TabPane>
+    </center>
+
+    <!-- Нижня панель статусу та індикатор фонового виконання -->
+    <bottom>
+        <HBox spacing="12" alignment="CENTER_LEFT" style="-fx-background-color: #f4f4f4; -fx-border-color: #cccccc; -fx-border-width: 1 0 0 0;">
+            <padding><Insets top="6" right="10" bottom="6" left="10"/></padding>
+            <Label fx:id="statusLabel" text="Готово до роботи" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+            <ProgressBar fx:id="progressBar" prefWidth="220" progress="0.0"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

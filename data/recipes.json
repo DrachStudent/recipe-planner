@@ -1,0 +1,1294 @@
+{
+  "ingredients" : [ {
+    "name" : "Картопля",
+    "caloriesPer100" : 77.0,
+    "unit" : "г"
+  }, {
+    "name" : "Буряк",
+    "caloriesPer100" : 43.0,
+    "unit" : "г"
+  }, {
+    "name" : "Капуста",
+    "caloriesPer100" : 25.0,
+    "unit" : "г"
+  }, {
+    "name" : "Морква",
+    "caloriesPer100" : 41.0,
+    "unit" : "г"
+  }, {
+    "name" : "Цибуля",
+    "caloriesPer100" : 40.0,
+    "unit" : "г"
+  }, {
+    "name" : "Часник",
+    "caloriesPer100" : 149.0,
+    "unit" : "г"
+  }, {
+    "name" : "Помідори",
+    "caloriesPer100" : 18.0,
+    "unit" : "г"
+  }, {
+    "name" : "Огірки",
+    "caloriesPer100" : 15.0,
+    "unit" : "г"
+  }, {
+    "name" : "Салат айсберг",
+    "caloriesPer100" : 14.0,
+    "unit" : "г"
+  }, {
+    "name" : "Печериці",
+    "caloriesPer100" : 22.0,
+    "unit" : "г"
+  }, {
+    "name" : "Томатна паста",
+    "caloriesPer100" : 82.0,
+    "unit" : "г"
+  }, {
+    "name" : "Яловичина",
+    "caloriesPer100" : 250.0,
+    "unit" : "г"
+  }, {
+    "name" : "Свинина",
+    "caloriesPer100" : 242.0,
+    "unit" : "г"
+  }, {
+    "name" : "Куряче філе",
+    "caloriesPer100" : 113.0,
+    "unit" : "г"
+  }, {
+    "name" : "Бекон",
+    "caloriesPer100" : 541.0,
+    "unit" : "г"
+  }, {
+    "name" : "Лосось",
+    "caloriesPer100" : 208.0,
+    "unit" : "г"
+  }, {
+    "name" : "Гречка",
+    "caloriesPer100" : 343.0,
+    "unit" : "г"
+  }, {
+    "name" : "Рис",
+    "caloriesPer100" : 365.0,
+    "unit" : "г"
+  }, {
+    "name" : "Вівсянка",
+    "caloriesPer100" : 389.0,
+    "unit" : "г"
+  }, {
+    "name" : "Макарони",
+    "caloriesPer100" : 371.0,
+    "unit" : "г"
+  }, {
+    "name" : "Борошно пшеничне",
+    "caloriesPer100" : 364.0,
+    "unit" : "г"
+  }, {
+    "name" : "Хліб білий",
+    "caloriesPer100" : 265.0,
+    "unit" : "г"
+  }, {
+    "name" : "Яйця",
+    "caloriesPer100" : 155.0,
+    "unit" : "г"
+  }, {
+    "name" : "Молоко",
+    "caloriesPer100" : 52.0,
+    "unit" : "мл"
+  }, {
+    "name" : "Вершки 20%",
+    "caloriesPer100" : 205.0,
+    "unit" : "мл"
+  }, {
+    "name" : "Сметана",
+    "caloriesPer100" : 206.0,
+    "unit" : "г"
+  }, {
+    "name" : "Йогурт натуральний",
+    "caloriesPer100" : 61.0,
+    "unit" : "г"
+  }, {
+    "name" : "Сир твердий",
+    "caloriesPer100" : 356.0,
+    "unit" : "г"
+  }, {
+    "name" : "Сир кисломолочний",
+    "caloriesPer100" : 121.0,
+    "unit" : "г"
+  }, {
+    "name" : "Масло вершкове",
+    "caloriesPer100" : 717.0,
+    "unit" : "г"
+  }, {
+    "name" : "Олія соняшникова",
+    "caloriesPer100" : 884.0,
+    "unit" : "мл"
+  }, {
+    "name" : "Олія оливкова",
+    "caloriesPer100" : 884.0,
+    "unit" : "мл"
+  }, {
+    "name" : "Цукор",
+    "caloriesPer100" : 387.0,
+    "unit" : "г"
+  }, {
+    "name" : "Мед",
+    "caloriesPer100" : 304.0,
+    "unit" : "г"
+  }, {
+    "name" : "Шоколад темний",
+    "caloriesPer100" : 546.0,
+    "unit" : "г"
+  }, {
+    "name" : "Какао-порошок",
+    "caloriesPer100" : 228.0,
+    "unit" : "г"
+  }, {
+    "name" : "Волоський горіх",
+    "caloriesPer100" : 654.0,
+    "unit" : "г"
+  }, {
+    "name" : "Яблука",
+    "caloriesPer100" : 52.0,
+    "unit" : "г"
+  }, {
+    "name" : "Банан",
+    "caloriesPer100" : 89.0,
+    "unit" : "г"
+  }, {
+    "name" : "Полуниця",
+    "caloriesPer100" : 32.0,
+    "unit" : "г"
+  }, {
+    "name" : "Лимон",
+    "caloriesPer100" : 29.0,
+    "unit" : "г"
+  }, {
+    "name" : "Вода",
+    "caloriesPer100" : 0.0,
+    "unit" : "мл"
+  }, {
+    "name" : "Кава мелена",
+    "caloriesPer100" : 2.0,
+    "unit" : "г"
+  }, {
+    "name" : "Чай чорний",
+    "caloriesPer100" : 1.0,
+    "unit" : "г"
+  } ],
+  "recipes" : [ {
+    "type" : "MAIN_DISH",
+    "name" : "Борщ український",
+    "category" : "Перші страви",
+    "prepTimeMinutes" : 90,
+    "servings" : 6,
+    "items" : [ {
+      "ingredientName" : "Буряк",
+      "amount" : 300.0
+    }, {
+      "ingredientName" : "Картопля",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Капуста",
+      "amount" : 300.0
+    }, {
+      "ingredientName" : "Яловичина",
+      "amount" : 450.0
+    }, {
+      "ingredientName" : "Морква",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Томатна паста",
+      "amount" : 50.0
+    } ],
+    "cookingMethod" : "Варіння"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Гречка з курячим філе",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 35,
+    "servings" : 3,
+    "items" : [ {
+      "ingredientName" : "Гречка",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Куряче філе",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Морква",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 20.0
+    } ],
+    "cookingMethod" : "Тушкування"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Омлет із сиром та помідорами",
+    "category" : "Сніданки",
+    "prepTimeMinutes" : 15,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Яйця",
+      "amount" : 180.0
+    }, {
+      "ingredientName" : "Молоко",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Сир твердий",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Помідори",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 15.0
+    } ],
+    "cookingMethod" : "Смаження"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Паста Карбонара",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 25,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Макарони",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Бекон",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Сир твердий",
+      "amount" : 70.0
+    }, {
+      "ingredientName" : "Вершки 20%",
+      "amount" : 100.0
+    } ],
+    "cookingMethod" : "Варіння та смаження"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Салат Цезар з куркою",
+    "category" : "Салати",
+    "prepTimeMinutes" : 20,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Куряче філе",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Салат айсберг",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Помідори",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Сир твердий",
+      "amount" : 40.0
+    }, {
+      "ingredientName" : "Хліб білий",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Олія оливкова",
+      "amount" : 20.0
+    } ],
+    "cookingMethod" : "Без термічної обробки"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Плов зі свининою",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 60,
+    "servings" : 5,
+    "items" : [ {
+      "ingredientName" : "Рис",
+      "amount" : 350.0
+    }, {
+      "ingredientName" : "Свинина",
+      "amount" : 500.0
+    }, {
+      "ingredientName" : "Морква",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 50.0
+    } ],
+    "cookingMethod" : "Тушкування"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Картопля запечена з розмарином",
+    "category" : "Гарніри",
+    "prepTimeMinutes" : 45,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Картопля",
+      "amount" : 700.0
+    }, {
+      "ingredientName" : "Олія оливкова",
+      "amount" : 35.0
+    }, {
+      "ingredientName" : "Часник",
+      "amount" : 15.0
+    } ],
+    "cookingMethod" : "Запікання"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Крем-суп грибний",
+    "category" : "Перші страви",
+    "prepTimeMinutes" : 35,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Печериці",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Картопля",
+      "amount" : 300.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Вершки 20%",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 25.0
+    } ],
+    "cookingMethod" : "Варіння"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Вівсяна каша з бананом і медом",
+    "category" : "Сніданки",
+    "prepTimeMinutes" : 12,
+    "servings" : 1,
+    "items" : [ {
+      "ingredientName" : "Вівсянка",
+      "amount" : 70.0
+    }, {
+      "ingredientName" : "Молоко",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Банан",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 15.0
+    } ],
+    "cookingMethod" : "Варіння"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Котлети курячі парові",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 30,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Куряче філе",
+      "amount" : 500.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Хліб білий",
+      "amount" : 50.0
+    } ],
+    "cookingMethod" : "На парі"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Грецький салат",
+    "category" : "Салати",
+    "prepTimeMinutes" : 15,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Помідори",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Огірки",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Сир твердий",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Олія оливкова",
+      "amount" : 25.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 40.0
+    } ],
+    "cookingMethod" : "Без термічної обробки"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Запечений лосось із лимоном",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 30,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Лосось",
+      "amount" : 350.0
+    }, {
+      "ingredientName" : "Лимон",
+      "amount" : 50.0
+    }, {
+      "ingredientName" : "Олія оливкова",
+      "amount" : 15.0
+    } ],
+    "cookingMethod" : "Запікання"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Вареники з картоплею",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 50,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 350.0
+    }, {
+      "ingredientName" : "Картопля",
+      "amount" : 500.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 40.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 60.0
+    } ],
+    "cookingMethod" : "Варіння"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Сирники класичні",
+    "category" : "Сніданки",
+    "prepTimeMinutes" : 25,
+    "servings" : 3,
+    "items" : [ {
+      "ingredientName" : "Сир кисломолочний",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 40.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 20.0
+    } ],
+    "cookingMethod" : "Смаження"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Овочеве рагу",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 40,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Картопля",
+      "amount" : 300.0
+    }, {
+      "ingredientName" : "Морква",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Капуста",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Помідори",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 30.0
+    } ],
+    "cookingMethod" : "Тушкування"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Курячий бульйон з локшиною",
+    "category" : "Перші страви",
+    "prepTimeMinutes" : 55,
+    "servings" : 5,
+    "items" : [ {
+      "ingredientName" : "Куряче філе",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Макарони",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Морква",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 80.0
+    } ],
+    "cookingMethod" : "Варіння"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Яєчня з беконом",
+    "category" : "Сніданки",
+    "prepTimeMinutes" : 10,
+    "servings" : 1,
+    "items" : [ {
+      "ingredientName" : "Яйця",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Бекон",
+      "amount" : 70.0
+    }, {
+      "ingredientName" : "Хліб білий",
+      "amount" : 50.0
+    } ],
+    "cookingMethod" : "Смаження"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Рис з овочами та яйцем",
+    "category" : "Гарніри",
+    "prepTimeMinutes" : 25,
+    "servings" : 3,
+    "items" : [ {
+      "ingredientName" : "Рис",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Морква",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 70.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 25.0
+    } ],
+    "cookingMethod" : "Смаження"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Стейк з яловичини",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 20,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Яловичина",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 30.0
+    }, {
+      "ingredientName" : "Часник",
+      "amount" : 10.0
+    }, {
+      "ingredientName" : "Олія оливкова",
+      "amount" : 15.0
+    } ],
+    "cookingMethod" : "Смаження"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Тушкована капуста зі свининою",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 50,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Капуста",
+      "amount" : 600.0
+    }, {
+      "ingredientName" : "Свинина",
+      "amount" : 350.0
+    }, {
+      "ingredientName" : "Морква",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Томатна паста",
+      "amount" : 40.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 25.0
+    } ],
+    "cookingMethod" : "Тушкування"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Салат із буряка та сиру",
+    "category" : "Салати",
+    "prepTimeMinutes" : 30,
+    "servings" : 3,
+    "items" : [ {
+      "ingredientName" : "Буряк",
+      "amount" : 350.0
+    }, {
+      "ingredientName" : "Сир твердий",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Часник",
+      "amount" : 10.0
+    }, {
+      "ingredientName" : "Сметана",
+      "amount" : 60.0
+    } ],
+    "cookingMethod" : "Варіння"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Макарони по-флотськи",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 30,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Макарони",
+      "amount" : 300.0
+    }, {
+      "ingredientName" : "Яловичина",
+      "amount" : 350.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 25.0
+    } ],
+    "cookingMethod" : "Варіння та смаження"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Сендвіч із куркою та огірком",
+    "category" : "Сніданки",
+    "prepTimeMinutes" : 10,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Хліб білий",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Куряче філе",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Огірки",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Салат айсберг",
+      "amount" : 40.0
+    }, {
+      "ingredientName" : "Сир твердий",
+      "amount" : 40.0
+    } ],
+    "cookingMethod" : "Без термічної обробки"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Лосось з рисом та огірком",
+    "category" : "Другі страви",
+    "prepTimeMinutes" : 30,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Лосось",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Рис",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Огірки",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Олія оливкова",
+      "amount" : 10.0
+    } ],
+    "cookingMethod" : "Запікання"
+  }, {
+    "type" : "MAIN_DISH",
+    "name" : "Гриби смажені у сметані",
+    "category" : "Гарніри",
+    "prepTimeMinutes" : 25,
+    "servings" : 3,
+    "items" : [ {
+      "ingredientName" : "Печериці",
+      "amount" : 450.0
+    }, {
+      "ingredientName" : "Цибуля",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Сметана",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 25.0
+    } ],
+    "cookingMethod" : "Смаження"
+  }, {
+    "type" : "DESSERT",
+    "name" : "Шарлотка з яблуками",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 50,
+    "servings" : 8,
+    "items" : [ {
+      "ingredientName" : "Яблука",
+      "amount" : 450.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 180.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 200.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Сирна запіканка",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 45,
+    "servings" : 6,
+    "items" : [ {
+      "ingredientName" : "Сир кисломолочний",
+      "amount" : 500.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Сметана",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 50.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Шоколадний брауні",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 40,
+    "servings" : 8,
+    "items" : [ {
+      "ingredientName" : "Шоколад темний",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 180.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 100.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Панкейки на молоці",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 25,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Молоко",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 40.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 30.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Бананові оладки без цукру",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 20,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Банан",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Вівсянка",
+      "amount" : 80.0
+    } ],
+    "containsSugar" : false
+  }, {
+    "type" : "DESSERT",
+    "name" : "Медовик домашній",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 90,
+    "servings" : 10,
+    "items" : [ {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 180.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Сметана",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 120.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Запечені яблука з медом",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 30,
+    "servings" : 3,
+    "items" : [ {
+      "ingredientName" : "Яблука",
+      "amount" : 450.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 45.0
+    }, {
+      "ingredientName" : "Волоський горіх",
+      "amount" : 40.0
+    } ],
+    "containsSugar" : false
+  }, {
+    "type" : "DESSERT",
+    "name" : "Ягідний крамбл",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 35,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Полуниця",
+      "amount" : 300.0
+    }, {
+      "ingredientName" : "Вівсянка",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 70.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 60.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Шоколадний мус",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 20,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Шоколад темний",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Вершки 20%",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 30.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Вівсяне печиво з горіхами",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 30,
+    "servings" : 6,
+    "items" : [ {
+      "ingredientName" : "Вівсянка",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Масло вершкове",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Волоський горіх",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 60.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Млинці класичні",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 35,
+    "servings" : 5,
+    "items" : [ {
+      "ingredientName" : "Молоко",
+      "amount" : 500.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 220.0
+    }, {
+      "ingredientName" : "Яйця",
+      "amount" : 120.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 40.0
+    }, {
+      "ingredientName" : "Олія соняшникова",
+      "amount" : 30.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Фруктовий салат з йогуртом",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 15,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Яблука",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Банан",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Полуниця",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Йогурт натуральний",
+      "amount" : 120.0
+    } ],
+    "containsSugar" : false
+  }, {
+    "type" : "DESSERT",
+    "name" : "Сирний десерт з полуницею",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 15,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Сир кисломолочний",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Полуниця",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 25.0
+    }, {
+      "ingredientName" : "Йогурт натуральний",
+      "amount" : 80.0
+    } ],
+    "containsSugar" : false
+  }, {
+    "type" : "DESSERT",
+    "name" : "Трайфл шоколадно-банановий",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 25,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Банан",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Шоколад темний",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Вершки 20%",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Борошно пшеничне",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 50.0
+    } ],
+    "containsSugar" : true
+  }, {
+    "type" : "DESSERT",
+    "name" : "Енергетичні кульки з вівсянки",
+    "category" : "Десерти",
+    "prepTimeMinutes" : 15,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Вівсянка",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Волоський горіх",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Какао-порошок",
+      "amount" : 20.0
+    } ],
+    "containsSugar" : false
+  }, {
+    "type" : "DRINK",
+    "name" : "Лате класичний",
+    "category" : "Напої",
+    "prepTimeMinutes" : 7,
+    "servings" : 1,
+    "items" : [ {
+      "ingredientName" : "Вода",
+      "amount" : 60.0
+    }, {
+      "ingredientName" : "Кава мелена",
+      "amount" : 15.0
+    }, {
+      "ingredientName" : "Молоко",
+      "amount" : 220.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 10.0
+    } ],
+    "servedCold" : false
+  }, {
+    "type" : "DRINK",
+    "name" : "Капучино",
+    "category" : "Напої",
+    "prepTimeMinutes" : 7,
+    "servings" : 1,
+    "items" : [ {
+      "ingredientName" : "Вода",
+      "amount" : 50.0
+    }, {
+      "ingredientName" : "Кава мелена",
+      "amount" : 15.0
+    }, {
+      "ingredientName" : "Молоко",
+      "amount" : 150.0
+    } ],
+    "servedCold" : false
+  }, {
+    "type" : "DRINK",
+    "name" : "Айс-лате",
+    "category" : "Напої",
+    "prepTimeMinutes" : 5,
+    "servings" : 1,
+    "items" : [ {
+      "ingredientName" : "Вода",
+      "amount" : 100.0
+    }, {
+      "ingredientName" : "Кава мелена",
+      "amount" : 15.0
+    }, {
+      "ingredientName" : "Молоко",
+      "amount" : 180.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 10.0
+    } ],
+    "servedCold" : true
+  }, {
+    "type" : "DRINK",
+    "name" : "Гарячий шоколад",
+    "category" : "Напої",
+    "prepTimeMinutes" : 10,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Молоко",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Шоколад темний",
+      "amount" : 80.0
+    }, {
+      "ingredientName" : "Какао-порошок",
+      "amount" : 15.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 20.0
+    } ],
+    "servedCold" : false
+  }, {
+    "type" : "DRINK",
+    "name" : "Какао домашнє",
+    "category" : "Напої",
+    "prepTimeMinutes" : 10,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Молоко",
+      "amount" : 450.0
+    }, {
+      "ingredientName" : "Какао-порошок",
+      "amount" : 25.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 30.0
+    } ],
+    "servedCold" : false
+  }, {
+    "type" : "DRINK",
+    "name" : "Смузі бананово-полуничний",
+    "category" : "Напої",
+    "prepTimeMinutes" : 8,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Банан",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Полуниця",
+      "amount" : 200.0
+    }, {
+      "ingredientName" : "Йогурт натуральний",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 15.0
+    } ],
+    "servedCold" : true
+  }, {
+    "type" : "DRINK",
+    "name" : "Лимонад домашній з медом",
+    "category" : "Напої",
+    "prepTimeMinutes" : 10,
+    "servings" : 4,
+    "items" : [ {
+      "ingredientName" : "Вода",
+      "amount" : 900.0
+    }, {
+      "ingredientName" : "Лимон",
+      "amount" : 150.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 50.0
+    } ],
+    "servedCold" : true
+  }, {
+    "type" : "DRINK",
+    "name" : "Чай чорний з лимоном",
+    "category" : "Напої",
+    "prepTimeMinutes" : 5,
+    "servings" : 1,
+    "items" : [ {
+      "ingredientName" : "Вода",
+      "amount" : 250.0
+    }, {
+      "ingredientName" : "Чай чорний",
+      "amount" : 5.0
+    }, {
+      "ingredientName" : "Лимон",
+      "amount" : 25.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 10.0
+    } ],
+    "servedCold" : false
+  }, {
+    "type" : "DRINK",
+    "name" : "Яблучний узвар",
+    "category" : "Напої",
+    "prepTimeMinutes" : 35,
+    "servings" : 6,
+    "items" : [ {
+      "ingredientName" : "Вода",
+      "amount" : 1500.0
+    }, {
+      "ingredientName" : "Яблука",
+      "amount" : 350.0
+    }, {
+      "ingredientName" : "Мед",
+      "amount" : 40.0
+    } ],
+    "servedCold" : true
+  }, {
+    "type" : "DRINK",
+    "name" : "Молочний коктейль з бананом",
+    "category" : "Напої",
+    "prepTimeMinutes" : 5,
+    "servings" : 2,
+    "items" : [ {
+      "ingredientName" : "Молоко",
+      "amount" : 400.0
+    }, {
+      "ingredientName" : "Банан",
+      "amount" : 180.0
+    }, {
+      "ingredientName" : "Цукор",
+      "amount" : 20.0
+    } ],
+    "servedCold" : true
+  } ],
+  "menuPlan" : {
+    "entries" : [ {
+      "dayOfWeek" : "Понеділок",
+      "mealType" : "Сніданок",
+      "recipeName" : "Вівсяна каша з бананом і медом",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Понеділок",
+      "mealType" : "Обід",
+      "recipeName" : "Борщ український",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Понеділок",
+      "mealType" : "Вечеря",
+      "recipeName" : "Гречка з курячим філе",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Вівторок",
+      "mealType" : "Сніданок",
+      "recipeName" : "Омлет із сиром та помідорами",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Вівторок",
+      "mealType" : "Обід",
+      "recipeName" : "Крем-суп грибний",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Середа",
+      "mealType" : "Сніданок",
+      "recipeName" : "Сирники класичні",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Середа",
+      "mealType" : "Вечеря",
+      "recipeName" : "Запечений лосось із лимоном",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Четвер",
+      "mealType" : "Обід",
+      "recipeName" : "Плов зі свининою",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "П'ятниця",
+      "mealType" : "Вечеря",
+      "recipeName" : "Паста Карбонара",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Субота",
+      "mealType" : "Сніданок",
+      "recipeName" : "Панкейки на молоці",
+      "servings" : 3
+    }, {
+      "dayOfWeek" : "Неділя",
+      "mealType" : "Обід",
+      "recipeName" : "Салат Цезар з куркою",
+      "servings" : 2
+    }, {
+      "dayOfWeek" : "Неділя",
+      "mealType" : "Десерт",
+      "recipeName" : "Шарлотка з яблуками",
+      "servings" : 4
+    } ]
+  }
+}

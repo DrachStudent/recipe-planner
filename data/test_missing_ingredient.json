@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    { "name": "Вода", "caloriesPer100": 0, "unit": "мл" }
+  ],
+  "recipes": [
+    {
+      "type": "DRINK",
+      "name": "Тестовий напій",
+      "category": "Напої",
+      "prepTimeMinutes": 5,
+      "servings": 1,
+      "servedCold": true,
+      "items": [
+        { "ingredientName": "Неіснуючий інгредієнт", "amount": 100 }
+      ]
+    }
+  ],
+  "menuPlan": { "entries": [] }
+}
